@@ -1,5 +1,4 @@
 import number_program_input
-import test_variables
 
 def split_and_convert(input_string):
 	split_string = input_string.split(" ")
