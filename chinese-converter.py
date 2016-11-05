@@ -1,5 +1,4 @@
 import number_program_input
-import test_variables
 
 def split_and_convert(input_string):
 	split_string = list(input_string)
@@ -109,5 +108,4 @@ def main(input_string):
 	output4 = add_big(output3)
 	print(output4)
 
-for string in number_program_input.sample_chinese_number_strings:
-	main(string)
+main(number_program_input.sample_chinese_number_strings[0])

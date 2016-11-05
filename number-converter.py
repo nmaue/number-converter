@@ -110,6 +110,4 @@ def main(input_string):
 	output4 = add_big(output3)
 	print(output4)
 
-for string in test_variables.sample_numbers:
-	main(string)
-
+main(number_program_input.sample_arabic_number_strings[0])
